@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>계산기</title>
+    <link href="style.css" rel="stylesheet" />
+    <script type="module" src="app.js" defer></script>
+  </head>
+  <body>
+    <main id="main">
+      <section id="main_section">
+        <article id="result_container">
+          <input readonly id="operator" />
+          <input value="0" readonly id="result" />
+        </article>
+        <article>
+          <div class="row">
+            <button id="percent">%</button>
+            <button id="clear_entry">CE</button>
+            <button id="clear_all">C</button>
+            <button id="backspace">⌫</button>
+          </div>
+          <div class="row">
+            <button id="inverse">1/x</button>
+            <button id="square">x<sup>2</sup></button>
+            <button id="root">
+              &radic;<span style="text-decoration: overline"> x</span>
+            </button>
+            <button id="divide">÷</button>
+          </div>
+          <div class="row">
+            <button id="num_7">7</button>
+            <button id="num_8">8</button>
+            <button id="num_9">9</button>
+            <button id="multiply">×</button>
+          </div>
+          <div class="row">
+            <button id="num_4">4</button>
+            <button id="num_5">5</button>
+            <button id="num_6">6</button>
+            <button id="minus">-</button>
+          </div>
+          <div class="row">
+            <button id="num_1">1</button>
+            <button id="num_2">2</button>
+            <button id="num_3">3</button>
+            <button id="plus">+</button>
+          </div>
+          <div class="row">
+            <button id="sign_change">+/-</button>
+            <button id="num_0">0</button>
+            <button id="decimal">.</button>
+            <button id="equal">=</button>
+          </div>
+        </article>
+      </section>
+      <aside id="history_container">
+        <h1 id="history_record">기록</h1>
+        <ul id="history_list"></ul>
+      </aside>
+    </main>
+  </body>
+</html>

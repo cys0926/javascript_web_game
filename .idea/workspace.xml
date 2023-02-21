@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c0556f7-26fc-4c8d-bb4e-41f3bfab089b" name="변경" comment="" />
+    <list default="true" id="2c0556f7-26fc-4c8d-bb4e-41f3bfab089b" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/calculator1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator2/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator2/utils/commas/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator2/utils/math/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheetsheet/caculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2048.html" beforeDir="false" afterPath="$PROJECT_DIR$/cheetsheet/2048.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1676956354" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1676956353" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Jx23Ix5fX0MxPF8PHETymZyPTE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +71,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\source\infearn\javascript\calculator2\utils\commas" />
+      <recent name="D:\source\infearn\javascript\calculator2\utils\math" />
+      <recent name="D:\source\infearn\javascript" />
+      <recent name="D:\source\infearn\javascript\cheetsheet" />
+      <recent name="D:\source\infearn\javascript\calculator" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -38,11 +89,22 @@
       <option name="presentableId" value="Default" />
       <updated>1673005212686</updated>
       <workItem from="1673005213891" duration="690000" />
-      <workItem from="1676903367135" duration="9448000" />
+      <workItem from="1676903367135" duration="38939000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
