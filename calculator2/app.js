@@ -31,6 +31,7 @@ const drawHistory = (prev, op, curr, res) => {
   $history.append($historyProcess, $historyResult);
 
   $historyList.appendChild($history);
+  $historyList.scrollTop = Number.MIN_SAFE_INTEGER;
 };
 
 const onClickNumber = (event) => {
@@ -61,6 +62,42 @@ const onClickOperator = (event) => {
   $result.value = result;
 };
 
+const onClickEqual = () => {
+  if (!operator) {
+    currNumber = result;
+  } else if (!currNumber) {
+    currNumber = result;
+  } else {
+    prevNumber = result;
+  }
+  $operator.value = prevNumber + operator + currNumber + "=";
+  result = calc(prevNumber, operator, currNumber);
+  drawHistory(prevNumber, operator, currNumber, result);
+  flag = true;
+  $result.value = result;
+};
+
+const onClickBackSpace = () => {
+  result = result.slice(0, -1) || "0";
+  $result.value = result;
+};
+
+const onClickClearAll = () => {
+  prevNumber = "";
+  operator = "";
+  currNumber = "";
+  result = "0";
+  flag = true;
+  $operator.value = "";
+  $result.value = result;
+};
+
+const onClickClearEntry = () => {
+  result = "0";
+  flag = true;
+  $result.value = result;
+};
+
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].forEach((value) => {
   const $number = document.getElementById(`num_${value}`);
   $number.addEventListener("click", onClickNumber);
@@ -72,33 +109,14 @@ const onClickOperator = (event) => {
 });
 
 document.getElementById("percent").addEventListener("click", () => {});
-document.getElementById("clear_entry").addEventListener("click", () => {
-  result = "0";
-  flag = true;
-  $result.value = result;
-});
-document.getElementById("clear_all").addEventListener("click", () => {
-  prevNumber = "";
-  operator = "";
-  currNumber = "";
-  result = "0";
-  flag = true;
-  $operator.value = "";
-  $result.value = result;
-});
-document.getElementById("backspace").addEventListener("click", () => {
-  result = result.slice(0, -1) || "0";
-  $result.value = result;
-});
-document.getElementById("equal").addEventListener("click", () => {
-  if (!currNumber) {
-    currNumber = result;
-  } else {
-    prevNumber = result;
-  }
-  $operator.value = prevNumber + operator + currNumber + "=";
-  result = calc(prevNumber, operator, currNumber);
-  drawHistory(prevNumber, operator, currNumber, result);
-  flag = true;
-  $result.value = result;
+document
+  .getElementById("clear_entry")
+  .addEventListener("click", onClickClearEntry);
+document.getElementById("clear_all").addEventListener("click", onClickClearAll);
+document
+  .getElementById("backspace")
+  .addEventListener("click", onClickBackSpace);
+document.getElementById("equal").addEventListener("click", onClickEqual);
+document.getElementById("history_delete").addEventListener("click", () => {
+  document.getElementById("history_list").replaceChildren();
 });

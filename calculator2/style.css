@@ -48,8 +48,10 @@
 
 #history_container {
   width: 300px;
-  height: 500px;
   padding: 5px;
+  height: 510px;
+  display: flex;
+  flex-direction: column;
 }
 
 #history_record {
@@ -60,14 +62,28 @@
   border-bottom: 2px blue solid;
 }
 
+#history_delete {
+  display: flex;
+  min-height: 30px;
+  align-self: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: fit-content;
+}
+
+#history_delete:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+}
+
 #history_list {
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
+  flex-flow: column-reverse nowrap;
+  margin-bottom: auto;
   row-gap: 10px;
   text-align: right;
-  height: 450px;
-  overflow-y: scroll;
+  overflow-y: auto;
+  padding-right: 10px;
 }
 
 .history {
