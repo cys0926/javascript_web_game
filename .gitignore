@@ -1,0 +1,4 @@
+node_module/
+/design_pattern/node_modules/
+/login_example/node_modules/
+*/node_modules/
