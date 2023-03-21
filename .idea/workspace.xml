@@ -2,12 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c0556f7-26fc-4c8d-bb4e-41f3bfab089b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/cheetsheet/textRPG.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textRPG-class/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textRPG-class/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textRPG-class/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/canvas.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/observer/ObserverApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/observer/challenge/analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/observer/challenge/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/observer/challenge/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/observer/challenge/observer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/observer/challenge/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promise/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promise/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promise/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/dist/index.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/public/airbnb_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/public/search_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/1_link/public/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/1_link/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/1_link/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/1_link/public/service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/1_link/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/2_ajax/data/about.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/2_ajax/data/home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/2_ajax/data/service.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/2_ajax/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/2_ajax/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/2_ajax/public/js/components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/2_ajax/public/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/2_ajax/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/3_hash/data/about.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/3_hash/data/home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/3_hash/data/service.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/3_hash/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/3_hash/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/3_hash/public/js/components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/3_hash/public/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/3_hash/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/4_pjax/data/about.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/4_pjax/data/home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/4_pjax/data/service.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/4_pjax/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/4_pjax/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/4_pjax/public/js/components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/4_pjax/public/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/4_pjax/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/spa-router/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/src/components/about-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/src/components/contact-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/src/components/home-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/src/components/navigation-bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/src/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/src/utils/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-component/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasbasic/02-draw/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasbasic/02-draw/01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasbasic/02-draw/02.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasbasic/02-draw/02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasbasic/02-draw/03.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasbasic/02-draw/03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasbasic/03-animation/01-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasbasic/03-animation/01-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasbasic/03-animation/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasbasic/03-animation/01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasbasic/03-animation/02.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasbasic/03-animation/02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasbasic/04-image/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasbasic/04-image/01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasbasic/04-image/02.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasbasic/04-image/02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasbasic/05-video/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasbasic/05-video/01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasbasic/05-video/02.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasbasic/05-video/02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasbasic/05-video/03.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasbasic/05-video/03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +91,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -56,7 +130,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/source/js_study",
+    "last_opened_file_path": "D:/source/javascript-sandbox",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -67,6 +141,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\source\javascript\web-component" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\source\infearn\javascript\calculator2\utils\commas" />
       <recent name="D:\source\infearn\javascript\calculator2\utils\math" />
@@ -87,6 +164,17 @@
       <workItem from="1676903367135" duration="40795000" />
       <workItem from="1677036120782" duration="1215000" />
       <workItem from="1677144346650" duration="22066000" />
+      <workItem from="1678763430999" duration="2494000" />
+      <workItem from="1678843758013" duration="6761000" />
+      <workItem from="1678876780287" duration="1307000" />
+      <workItem from="1678971790384" duration="17000" />
+      <workItem from="1679017402686" duration="88000" />
+      <workItem from="1679028551398" duration="451000" />
+      <workItem from="1679029042370" duration="4661000" />
+      <workItem from="1679044066766" duration="1375000" />
+      <workItem from="1679122930705" duration="8171000" />
+      <workItem from="1679159812761" duration="1999000" />
+      <workItem from="1679289601772" duration="1306000" />
     </task>
     <servers />
   </component>
