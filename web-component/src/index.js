@@ -1,37 +1,45 @@
-import { AboutPage } from "./components/about-page";
-import { ContactPage } from "./components/contact-page";
-import { HomePage } from "./components/home-page";
-import { NavigationBar } from "./components/navigation-bar";
-
-const router = {
-  "/": "home-page",
-  "/about": "about-page",
-  "/contact": "contact-page",
-};
-
-const main = document.querySelector("main");
-const navigateTo = (url) => {
-  history.pushState(null, null, url);
-  handleNavigation();
-};
-
-const handleNavigation = () => {
-  const path = location.pathname;
-  const pageComponentName = router[path];
-  if (!pageComponentName) {
-    return;
+class PageA extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = "A";
   }
-  const navigation = document.createElement("navigation-bar");
-  const pageComponent = document.createElement(pageComponentName);
-  main.innerHTML = "";
-  main.append(navigation, pageComponent);
+}
+customElements.define("my-a", PageA);
 
-  const navigationBar = document.querySelector("navigation-bar");
-  navigationBar.addEventListener("navigate", (event) => {
-    navigateTo(event.detail.url);
-  });
-};
+class PageB extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = "B";
+  }
+}
+customElements.define("my-b", PageB);
 
-window.addEventListener("popstate", handleNavigation);
+const routes = [
+  {
+    path: "/",
+    component: PageA,
+    label: "Home",
+    iconSrc: null,
+  },
+  {
+    path: "/",
+    component: PageB,
+    label: "page B",
+    iconSrc: null,
+  },
+];
 
-handleNavigation();
+window.addEventListener("DOMContentLoaded", () => {
+  const page = routes.find(
+    (value) => value.path === window.location.pathname
+  ).component;
+  const pageNode = new page();
+  switch (page) {
+    case PageA:
+      pageNode.tabIndex = -1;
+      break;
+    case PageB:
+      // pageB attribute 정의
+      break;
+  }
+
+  document.querySelector("#root").append(pageNode);
+});
